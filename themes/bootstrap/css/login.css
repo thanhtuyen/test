@@ -1,0 +1,206 @@
+/*.wrapper {*/
+    /*align:center;*/
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*width: 980px !important;*/
+/*}*/
+
+/*#img_header {*/
+    /*position:relative;*/
+    /*top: 30px;*/
+    /*left: 410px;*/
+/*}*/
+
+/*hr {border-top:1px dotted #cccccc;}*/
+
+#title {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: center;
+    width: 480px;
+}
+
+#login-form{
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+    width: 480px;
+}
+
+.control-group {
+    margin-top: 30px !important;
+
+}
+.control-label {
+    width: 105px !important;
+}
+.controls {
+    margin-left: 125px !important;
+}
+.btn {
+    position: relative;
+    left: 120px !important;
+}
+
+#forgotpass {
+    bottom: 25px;
+    position: relative;
+    left: 200px ;
+}
+
+/* CSS for footer */
+/*div#block-toolbar {*/
+    /*background: url(../images/index_top.png) repeat-x scroll 0 0 transparent;*/
+    /*border-bottom: 1px solid rgba(0, 0, 2, 0.1);*/
+    /*border-top: 1px solid #FDFDFF;*/
+    /*box-shadow: 0 1px 0 rgba(253, 253, 255, 0.5);*/
+/*}*/
+
+/*div.wrapper {*/
+    /*width: 1024px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*.clearfix:after, .grid-block:after, .deepest:after {*/
+    /*clear: both;*/
+/*}*/
+/*.clearfix:before, .clearfix:after, .grid-block:before, .grid-block:after, .deepest:before, .deepest:after {*/
+    /*content: "";*/
+    /*display: table;*/
+/*}*/
+/*.clearfix:after, .grid-block:after {*/
+    /*clear: both;*/
+/*}*/
+/*.clearfix:before, .clearfix:after, .grid-block:before, .grid-block:after {*/
+    /*content: "";*/
+    /*display: table;*/
+/*}*/
+/*.clearfix:before, .clearfix:after, .grid-block:before, .grid-block:after, .deepest:before, .deepest:after {*/
+    /*content: "";*/
+    /*display: table;*/
+/*}*/
+/*.clearfix:before, .clearfix:after, .grid-block:before, .grid-block:after {*/
+    /*content: "";*/
+    /*display: table;*/
+/*}*/
+
+/*#toolbar, #toolbar a {*/
+    /*color: #99999B;*/
+/*}*/
+/*#toolbar {*/
+    /*text-shadow: 0 1px 0 #FDFDFF;*/
+/*}*/
+/*#toolbar {*/
+    /*font-size: 12px;*/
+    /*line-height: 24px;*/
+    /*padding: 5px;*/
+/*}*/
+
+/*.float-left {*/
+    /*float: left;*/
+/*}*/
+/*.float-right {*/
+    /*float: right;*/
+/*}*/
+
+/*.deepest > *:last-child {*/
+    /*margin-bottom: 0;*/
+/*}*/
+/*.deepest > *:first-child {*/
+    /*margin-top: 0;*/
+/*}*/
+/*.social-icons {*/
+    /*list-style: none outside none;*/
+    /*margin: 0;*/
+    /*overflow: hidden;*/
+    /*padding: 0;*/
+/*}*/
+/*ul, ol, dl {*/
+    /*padding-left: 30px;*/
+/*}*/
+/*p, hr, ul, ol, dl, blockquote, pre, fieldset, figure {*/
+    /*margin: 15px 0;*/
+/*}*/
+
+/*a {*/
+    /*color: #777779;*/
+/*}*/
+/*a, a:hover {*/
+    /*text-decoration: none;*/
+/*}*/
+/*.social-icons li {*/
+    /*float: right;*/
+    /*line-height: 23px;*/
+    /*margin: 0 3px 0 0;*/
+/*}*/
+/*#toolbar, #toolbar a {*/
+    /*color: #99999B;*/
+/*}*/
+/*.social-icons li a {*/
+    /*background: url(../images/icons_social.png) no-repeat scroll 0 -8px transparent;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*height: 23px;*/
+    /*overflow: hidden;*/
+    /*text-indent: 50px;*/
+    /*width: 30px;*/
+/*}*/
+
+
+/*ul.bottom_right, ol.bottom_right, dl.bottom_right {*/
+    /*padding-left: 0px;*/
+/*}*/
+/*.bottom_right li {*/
+    /*line-height: 23px;*/
+    /*margin: 0 3px 0 0;*/
+    /*list-style: none;*/
+    /*text-align: right;*/
+    /*clear: right;*/
+/*}*/
+/*.bottom_right li a{*/
+    /*padding-left: 38px;*/
+    /*line-height: 30px;*/
+    /*font-size: 20px;*/
+/*}*/
+/*ul.bottom_left, ol.bottom_left, dl.bottom_left {*/
+    /*padding-left: 0px;*/
+/*}*/
+/*.bottom_left li {*/
+    /*float: left;*/
+    /*clear: left;*/
+    /*line-height: 23px;*/
+    /*margin: 0 3px 0 0;*/
+    /*list-style: none;*/
+/*}*/
+/*.bottom_left li a {*/
+    /*background: url(../images/ql-databases.gif) no-repeat scroll 0 0px transparent;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*height: 30px;*/
+    /*overflow: hidden;*/
+    /*text-indent: 35px;*/
+    /*width: 100%;*/
+    /*line-height: 30px;*/
+/*}*/
+/*li.users a {background: url(../images/ql-users.gif) no-repeat scroll 0 0px transparent;}*/
+/*li.users a strong { color: #40c9f5;}*/
+/*li.options a {background: url(../images/facebook.gif) no-repeat scroll 0 0px transparent;}*/
+/*li.settings a {background: url(../images/ql-settings.gif) no-repeat scroll 0 0px transparent;}*/
+/*li.messages a {background: url(../images/it-science.gif) no-repeat scroll 0 0px transparent;}*/
+/*li.databases a {background: url(../images/logo.gif) no-repeat scroll 0 0px transparent;}*/
+
+/*.databases {*/
+    /*padding-bottom: 5px;*/
+/*}*/
+/*.messages {*/
+    /*padding-bottom: 5px;*/
+/*}*/
+/*div#distance2 {*/
+    /*clear: both;*/
+    /*margin-top: 20px;*/
+/*}*/
+/**/

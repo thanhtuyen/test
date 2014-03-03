@@ -1,0 +1,65 @@
+.create_user {
+  width: 70%;
+  margin-left: 150px !important;
+  margin-right: 20px !important;
+  border:1px solid #999999;
+  border-radius:15px;
+}
+.view_user {
+  width: 70%;
+  margin-left: 120px !important;
+  margin-right: 20px !important;
+  border:1px solid #999999;
+  border-radius:15px;
+  margin-top: 10px;
+}
+.form-horizontal .control-label {
+  margin-right:30px;
+  width:80px;
+}
+.view_user table {
+  margin-bottom:0 !important;
+  width:80% !important;
+  margin-left: 10px;
+}
+.table th {
+  background-color:#FFFFFF !important;
+  border-top-style:none !important;
+  color:#999999 !important;
+  font-weight:bold;
+  padding-right:20px !important;
+}
+.table td {
+  background-color:#FFFFFF !important;
+  border-top-style:none !important;
+}
+.grid-view table.items {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #D0E3EF;
+  border-collapse: collapse;
+  width: 100% !important;
+}
+.grid-view table.items tr.odd {
+  background: none repeat scroll 0 0 #E5F1F4 ;
+  border: 1px solid #D0E3EF;
+}
+.grid-view table.items tr.selected td {
+  background: none repeat scroll 0 0 #EEEEEE;
+}
+.grid-view table.items tr.selected {
+  background: none repeat scroll 0 0 #BCE774;
+}
+
+.grid-view table.items tr.even {
+  background: none repeat scroll 0 0 #F8F8F8;
+}
+.grid-view table.items th {
+  background: url("bg.gif") repeat-x scroll left top #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+}
+.grid-view table.items th, .grid-view table.items td {
+  border: 1px solid #FFFFFF;
+  font-size: 0.9em;
+  padding: 0.3em;
+}

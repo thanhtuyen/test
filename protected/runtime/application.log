@@ -1,0 +1,442 @@
+2014/03/01 13:38:04 [error] [exception.CException] exception 'CException' with message 'Asset "C:\xampp\htdocs\vaco\protected\config/../extensions/bootstrap\assets" để publish không tồn tại.' in C:\xampp\htdocs\vaco\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\vaco\protected\extensions\bootstrap\components\Bootstrap.php(641): CAssetManager->publish('C:\xampp\htdocs...', false, -1, false)
+#1 C:\xampp\htdocs\vaco\protected\extensions\bootstrap\components\packages.php(12): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\vaco\protected\extensions\bootstrap\components\Bootstrap.php(156): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\vaco\framework\base\CModule.php(387): Bootstrap->init()
+#4 C:\xampp\htdocs\vaco\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\vaco\framework\base\CApplication.php(152): CModule->preloadComponents()
+#6 C:\xampp\htdocs\vaco\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\vaco\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\vaco\admin.php(14): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/admin.php/user/create
+---
+2014/03/01 13:38:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:43:52 [error] [exception.CException] exception 'CException' with message 'Asset "C:\xampp\htdocs\vaco\framework\zii\widgets\assets" để publish không tồn tại.' in C:\xampp\htdocs\vaco\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\zii\widgets\CListView.php(209): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\vaco\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\xampp\htdocs\vaco\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\vaco\protected\views\admin\user\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\xampp\htdocs\vaco\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\vaco\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\vaco\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\vaco\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\vaco\protected\controllers\admin\UserController.php(135): CController->render('index', Array)
+#9 C:\xampp\htdocs\vaco\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#10 C:\xampp\htdocs\vaco\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\vaco\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\vaco\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\vaco\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\vaco\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\vaco\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\vaco\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\vaco\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#20 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#22 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#23 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#24 [internal function]: CComponent->__call('runEnd', Array)
+#25 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#26 {main}
+REQUEST_URI=/admin.php/user/
+---
+2014/03/01 13:44:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/
+---
+2014/03/01 13:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "<br /><b>Fatal error</b>:  Call to undefined function app() in <b>C:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php</b> on line <b>8</b><br /><!-- start log messages --><table class=".' in C:\xampp\htdocs\vaco\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('<br /><b>Fatal ...')
+#1 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#4 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 [internal function]: CComponent->__call('runEnd', Array)
+#6 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#7 {main}
+REQUEST_URI=/admin.php/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/
+---
+2014/03/01 13:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "<br /><b>Fatal error</b>:  Call to undefined function app() in <b>C:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php</b> on line <b>8</b><br /><!-- start log messages --><table class=".' in C:\xampp\htdocs\vaco\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('<br /><b>Fatal ...')
+#1 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#4 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#5 [internal function]: CComponent->__call('runEnd', Array)
+#6 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#7 {main}
+REQUEST_URI=/admin.php/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/
+---
+2014/03/01 13:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:47:46 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" không có hiệu lực. Phải chắc chắn nó chỉ đến một tập tin PHP đã có.' in C:\xampp\htdocs\vaco\framework\YiiBase.php:316
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 C:\xampp\htdocs\vaco\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\vaco\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(152): CModule->preloadComponents()
+#4 C:\xampp\htdocs\vaco\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\vaco\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\vaco\admin.php(14): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/admin.php/user/create
+---
+2014/03/01 13:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:49:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:49:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 13:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 14:01:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 14:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 14:04:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 14:04:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "<br ".' in C:\xampp\htdocs\vaco\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CController.php(270): CController->missingAction('<br ')
+#1 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('<br ')
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/<br /><b>F...')
+#3 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#6 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 [internal function]: CComponent->__call('runEnd', Array)
+#8 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#9 {main}
+REQUEST_URI=/admin.php/user/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20undefined%20function%20app()%20in%20%3Cb%3EC:/xampp/htdocs/vaco/themes/bootstrap/views/layouts/main.php%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://vaco.com/admin.php/user/create
+---
+2014/03/01 14:04:40 [error] [exception.CException] exception 'CException' with message 'Thư mục theme C:\xampp\htdocs\vaco\themes không tồn tại' in C:\xampp\htdocs\vaco\framework\web\CThemeManager.php:110
+Stack trace:
+#0 C:\xampp\htdocs\vaco\framework\web\CThemeManager.php(98): CThemeManager->setBasePath('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\vaco\framework\web\CThemeManager.php(60): CThemeManager->getBasePath()
+#2 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(257): CThemeManager->getTheme('bootstrap')
+#3 C:\xampp\htdocs\vaco\framework\web\CController.php(586): CWebApplication->getTheme()
+#4 C:\xampp\htdocs\vaco\framework\web\CController.php(867): CController->getViewFile('create')
+#5 C:\xampp\htdocs\vaco\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\vaco\protected\controllers\admin\UserController.php(86): CController->render('create', Array)
+#7 C:\xampp\htdocs\vaco\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#8 C:\xampp\htdocs\vaco\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\vaco\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\vaco\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\vaco\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\vaco\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\vaco\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\vaco\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\vaco\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\htdocs\vaco\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#18 C:\xampp\htdocs\vaco\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\vaco\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#20 [internal function]: WebApplicationEndBehavior->runEnd('admin')
+#21 C:\xampp\htdocs\vaco\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#22 [internal function]: CComponent->__call('runEnd', Array)
+#23 C:\xampp\htdocs\vaco\admin.php(14): CWebApplication->runEnd('admin')
+#24 {main}
+REQUEST_URI=/admin.php/user/create
+---
